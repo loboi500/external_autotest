@@ -1,4 +1,3 @@
-This directory contains low level tests for peripherals. The tests are
-implemented as ConfigurableCfmTests, i.e. the scenarios are defined in the
-control files. Low level meaning that Chrome or the Meet app is not involved.
-The devices are tested closer to the operating system.
+version https://git-lfs.github.com/spec/v1
+oid sha256:44984bf16e76e64b74c8e30c08f7177401c1107e85296cee77d9bf4c3bce6955
+size 279

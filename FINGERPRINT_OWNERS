@@ -1,8 +1,3 @@
-# Chrome OS Fingerprint OWNERS
-# contact: chromeos-fingerprint@google.com
-
-hesling@chromium.org
-jora@google.com
-josienordrum@google.com
-tomhughes@chromium.org
-yichengli@chromium.org
+version https://git-lfs.github.com/spec/v1
+oid sha256:68553df36a9cc79ae426016781655e521f741415a346b19126fe60751edcbb2f
+size 182

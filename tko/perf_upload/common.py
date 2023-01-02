@@ -1,8 +1,3 @@
-import os, sys
-dirname = os.path.dirname(sys.modules[__name__].__file__)
-autotest_dir = os.path.abspath(os.path.join(dirname, '..', '..'))
-client_dir = os.path.join(autotest_dir, 'client')
-sys.path.insert(0, client_dir)
-import setup_modules
-sys.path.pop(0)
-setup_modules.setup(base_path=autotest_dir, root_module_name='autotest_lib')
+version https://git-lfs.github.com/spec/v1
+oid sha256:401d924b2e65781f66fd44fca1107363b99278e3689da62ad22c01a357dcaac7
+size 334

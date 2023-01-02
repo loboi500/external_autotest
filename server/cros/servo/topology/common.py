@@ -1,15 +1,3 @@
-#!/usr/bin/python2
-# Copyright 2020 The Chromium OS Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-# Build relative paths for files with root of autotest_lib.
-
-import os, sys
-dirname = os.path.dirname(sys.modules[__name__].__file__)
-autotest_dir = os.path.abspath(os.path.join(dirname, '../../../..'))
-client_dir = os.path.join(autotest_dir, 'client')
-sys.path.insert(0, client_dir)
-import setup_modules
-sys.path.pop(0)
-setup_modules.setup(base_path=autotest_dir, root_module_name='autotest_lib')
+version https://git-lfs.github.com/spec/v1
+oid sha256:8674cab4a22d44414c12b288eee96762322d659ede6d46508e0f9bbc8639381a
+size 583
